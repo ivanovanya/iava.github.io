@@ -1,0 +1,336 @@
+/* 1025-1280px */
+
+@media screen and (max-width: 1280px) {
+
+	/* --- Основные стили --- */
+
+	body {
+		font-size: 30px;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 60px;
+	}
+
+	h3 {
+		font-size: 45px;
+	}
+
+	h4 {
+		font-size: 36px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+
+	/* Доп. стил */
+
+	.btn, .btn-o {
+		width: 300px;
+		padding: 20px 0 23px;
+	}
+
+	/* --- Первый экран --- */
+
+	.nav {
+		position: fixed;
+		width: calc(100% - 200px);
+		left: 0;
+		top: 0;
+		padding: 25px 100px;
+		background: rgba(255, 255, 255, .8);
+		border-bottom: 1px solid rgba(0, 0, 0, .5);
+	}
+
+	.header__burger-menu {
+		display: block;
+		margin: 0 25px 0 auto;
+	}
+
+	.header__menu, .header__tel_num {
+		display: none;
+	}
+
+	.header__cont {
+		text-align: center;
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		-o-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.offer__title {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.offer__des {
+		max-width: 100%;
+		margin: 4% 0;
+	}
+
+	.btn, .btn-o {
+		margin: 5% auto;
+	}
+
+	.btn {
+		margin-bottom: 2%;
+	}
+
+	.btn-o {
+		position: static;
+	}
+
+	.header__img {
+		width: 75%;
+	}
+
+	/* --- О студии --- */
+
+	.about__cont {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.adv__list {
+		width: 90%;
+	}
+
+
+	.about-cont .info {
+		margin: 0;
+	}
+
+	.about__title-main, .about__title-second {
+		text-align: center;
+	}
+
+	/* --- Услуги и цены --- */
+
+	.serv__info {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.serv__title {
+		margin: 5% 0;
+	}
+
+	.serv__img {
+		margin-bottom: 4%;
+		width: 100%;
+	}
+
+	.item {
+		padding: 0 5%;
+	}
+
+	.item-cont {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.item-cont__img {
+		margin: 3% 0;
+	}
+
+	.services-products {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.services-product {
+		margin: 0 auto 5%;
+		width: 65%;
+	}
+
+	.services-product__about {
+		margin: 0 auto;
+	}
+
+	.services-product__price {
+		max-width: 175px;
+    padding: 19px 0;
+	}
+	
+	/* --- Дента-косметика --- */
+
+	.denta-cont {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.product {
+		width: 65%;
+		margin: 0 auto 5%;
+		padding-bottom: 3%;
+	}
+
+	.product__price {
+		max-width: 175px;
+    padding: 19px 0;
+	}
+
+	.owl-next, .owl-prev {
+		margin-top: -75px;
+	}
+
+	.owl-prev span, .owl-next span {
+		font-size: 125px;
+	}
+
+	/* --- Вопрос-ответ --- */
+
+	.answer-row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.answer-row .wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 7%;
+	}
+
+	.answers .collapse[open] p {
+		font-size: 30px;
+	}
+
+	.answer__img {
+		width: 50%;
+	}
+
+	/* --- Контакты --- */
+
+	.contact-cont {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.contact-links, .form {
+		max-width: 90%;
+		margin-top: 5%;
+	}
+
+	.form {
+		background: url(../img/form.png) no-repeat center top / cover;
+		width: 80%;
+	}
+
+	.form__title {
+		font-size: 46px;
+	}
+
+	.contact-links img {
+		width: 75px;
+		height: 75px;
+	}
+
+	.loc, .mail {
+		padding: 30px 100px;
+		-webkit-background-size: 75px;
+		background-size: 75px;
+	}
+
+	#mymap {
+		width: 100% !important;
+	}
+	
+	/* --- Подвал --- */
+
+	.f-bottom {
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		-o-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.author {
+		margin-bottom: 4%;	
+	}
+
+	.footer .menu, .footer__menu {
+		display: block;
+		text-align: center;
+	}
+
+	.footer .menu li, .footer__menu li {
+		margin-bottom: 4%;
+	}
+
+	.fa-arrow-right {
+		right: -50px;
+	}
+
+	/* Кнопка */
+
+	.up {
+		width: 100px;
+		height: 100px;
+	}
+
+	.fa-arrow-up {
+		line-height: 100px;
+		font-size: 40px;
+	}
+}
+
+
+
+/* ...-1024px */
+
+@media screen and (max-width: 1024px) {
+
+	/* --- Подвал --- */
+
+	.footer__menu {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer__menu li {
+		margin: 0 0 4% 0;
+	}
+}
